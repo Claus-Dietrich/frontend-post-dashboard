@@ -21,6 +21,9 @@ Frontend Post Dashboard allows authorized users to create, draft, edit, and mana
 
 ## Changelog
 
+### 4.7
+* includes German language module.
+
 ### 4.6
 * Integrated direct markdown parsing from GitHub for the WordPress update modal.
 * Fully internationalized codebase (`Text Domain: frontend-post-dashboard`).
