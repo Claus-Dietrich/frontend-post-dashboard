@@ -7,7 +7,7 @@ A clean, lightweight frontend posting and management dashboard designed for auth
 Frontend Post Dashboard allows authorized users to create, draft, edit, and manage blog posts directly from the frontend without accessing the WordPress admin dashboard.
 
 ### Key Features
-* **Full Rich-Text Editor:** Integrated WordPress TinyMCE editor supporting media uploads, formatting, and custom colors.
+* **Full Rich-Text Editor:** Integrated WordPress TinyMCE editor supporting font family & size selection, media uploads, formatting, and custom theme colors.
 * **Theme Color Integration:** Automatically extracts color palettes from modern block themes and classic themes.
 * **Responsive Embeds:** Wraps uploaded videos and iframe embeds in responsive containers to prevent theme layout breaks.
 * **Draft & Post Management:** Fast tabbed dashboard with live sorting by title, status, or date.
@@ -21,8 +21,16 @@ Frontend Post Dashboard allows authorized users to create, draft, edit, and mana
 
 ## Changelog
 
+### 4.8
+* Added plugin settings page under **Settings -> Frontend Dashboard**.
+* Added "Author Selection without WP Login" mode for password-protected pages.
+* Added dedicated Frontend Password / PIN field to WordPress user profiles.
+* Added direct frontend author login dialog with instant dashboard access.
+* Support for author switching and clean frontend logouts.
+* Updated German localization files.
+
 ### 4.7
-* includes German language module.
+* Improved post updating and frontend draft management.
 
 ### 4.6
 * Integrated direct markdown parsing from GitHub for the WordPress update modal.
